@@ -28,7 +28,6 @@ def findCountours(image):
     cv2.imshow('Image after countouring', contoured_image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
     return contoured_image
 
 #Defining color Quantization
@@ -57,48 +56,3 @@ if __name__ == "__main__":
 
         cv2.imwrite("cartoonized_"+ filename, final_image)
         print("Image saved!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
